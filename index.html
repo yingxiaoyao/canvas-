@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="canvas" width="1024" height="500" style='border : 1px solid #ddd;display:block;margin:50px auto;'>
+        您的浏览器不支持canvas！！
+    </canvas>
+</body>
+<script type="text/javascript">
+    var canvas = document.getElementById('canvas');
+    var context = canvas.getContext('2d');
+
+    context.moveTo(100,100);
+    context.lineTo(700,400);
+    context.lineTo(100,400);
+    context.lineTo(100,100);
+    context.lineWidth=5;
+    context.strokeStyle = 'teal';
+    context.fillStyle = 'teal';
+
+    context.fill();
+    context.stroke();
+
+
+</script>
+</html>
