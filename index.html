@@ -12,11 +12,42 @@
         您的浏览器不支持canvas！！
     </canvas>
 </body>
+<script type="text/javascript" src="js/digit.js"></script>
 <script type="text/javascript">
     var canvas = document.getElementById('canvas');
     var context = canvas.getContext('2d');
 
-    context.moveTo(100,100);
+
+    
+
+    /*for (var i = 0; i < 10; i++) {
+        context.beginPath();
+        context.arc(40 + i*100 , 100 , 40 , 0 , 2 * Math.PI*(i+1)/10);
+        context.stroke();
+    }
+    for (var i = 0; i < 10; i++) {
+        context.beginPath();
+        context.arc(40 + i * 100 , 200 , 40 , 0 ,2 * Math.PI*(i+1)/10);
+        context.closePath();
+        context.stroke();
+    }
+    for (var i = 0; i < 10; i++) {
+        context.beginPath();
+        context.arc(40 + i * 100 , 300 , 40 , 0 ,2 * Math.PI*(i+1)/10,true);
+        context.closePath();
+        context.stroke();
+    }
+    for (var i = 0; i < 10; i++) {
+        context.beginPath();
+        context.arc(40 + i * 100 , 400 , 40 , 0 ,2 * Math.PI*(i+1)/10,true);
+        context.closePath();
+        context.fillStyle = 'teal';
+        context.fill();
+    }*/
+
+
+
+  /*  context.moveTo(100,100);
     context.lineTo(700,400);
     context.lineTo(100,400);
     context.lineTo(100,100);
@@ -25,7 +56,7 @@
     context.fillStyle = 'teal';
 
     context.fill();
-    context.stroke();
+    context.stroke();*/
 
 
 </script>
